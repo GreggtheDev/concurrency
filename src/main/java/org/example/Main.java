@@ -1,5 +1,9 @@
 package org.example;
 
+import org.example.SharedBuffer;
+import org.example.Producer;
+import org.example.Consumer;
+
 public class Main {
     public static void main(String[] args) {
         SharedBuffer buffer = new SharedBuffer(10);
