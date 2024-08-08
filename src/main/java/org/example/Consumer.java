@@ -1,3 +1,5 @@
+package org.example;
+
 public class Consumer implements Runnable {
     private final SharedBuffer buffer; // Shared buffer reference
     private int sum = 0; // Sum of consumed values
